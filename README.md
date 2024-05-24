@@ -1,1 +1,2 @@
 # electriccar-cc4
+My name is Anjali Krishna, and my U-Number is U35346496. This coding challenge aims to enhance our understanding of inheritance in object-oriented programming by extending the  Car class from a previous coding challenge to create a new Electric Car (EV) class. The EV class will include additional properties and methods specific to electric vehicles, such as battery charge management and customized acceleration behavior.
