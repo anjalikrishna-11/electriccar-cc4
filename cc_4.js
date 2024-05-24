@@ -17,3 +17,10 @@ class Car {
         console.log(`${this.make} braked and is now going at ${this.speed} km/h`);
     }
 }
+// Extending the Car class to create an EV class that includes current battery charge property 
+class EV extends Car {
+    constructor(make, speed, charge) {
+        super(make, speed);
+        this.charge = charge;
+    }
+    
