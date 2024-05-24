@@ -56,4 +56,4 @@ ev1.chargeBattery(20);
 ev1.brake();
 ev1.accelerate();
 
-console.log(`The latest speed for the ${ev1.make} is ${ev1.speed} km/h with a charge of ${ev1.charge}%.`);
+console.log(`The latest speed for the ${ev1.make} is ${ev1.speed} km/h with a charge of ${ev1.charge}%`);
