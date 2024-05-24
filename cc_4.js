@@ -29,3 +29,11 @@ class EV extends Car {
         console.log(`${this.make} charged to ${this.charge}%`);
     }
     
+    // Override the accelerate method in the EV class to increase speed by 20 km/h, decrease battery charge by 1%, and log the new speed and charge level in the console
+    accelerate() {
+        this.speed += 20;
+        this.charge -= 1;
+        console.log(`${this.make} going at ${this.speed} km/h, with a charge of ${this.charge}%`);
+    }
+}
+    
