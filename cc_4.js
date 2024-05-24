@@ -23,4 +23,9 @@ class EV extends Car {
         super(make, speed);
         this.charge = charge;
     }
+    //Implement a `chargeBattery` method in the EV class to set the battery charge to a specified value
+    chargeBattery(chargeTo) {
+        this.charge = chargeTo;
+        console.log(`${this.make} charged to ${this.charge}%`);
+    }
     
